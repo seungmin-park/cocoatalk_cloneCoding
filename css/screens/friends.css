@@ -4,8 +4,26 @@
   background-color: #fafafa;
   padding: 15px 0px;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 #Friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen-channel {
+  margin-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+
+.friends-screen-channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
 }
