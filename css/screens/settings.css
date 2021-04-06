@@ -1,0 +1,16 @@
+.settings__setting {
+  display: flex;
+  padding: 20px 0px;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.settings__setting__column:last-child {
+  opacity: 0.6;
+}
