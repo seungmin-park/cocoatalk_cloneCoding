@@ -1,0 +1,10 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
