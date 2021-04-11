@@ -33,3 +33,17 @@
   position: absolute;
   left: 30px;
 }
+
+@keyframes notificationRotation {
+  from {
+    transform: rotateY(360deg);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.nav_notification {
+  animation: notificationRotation 1s ease-in-out infinite;
+}

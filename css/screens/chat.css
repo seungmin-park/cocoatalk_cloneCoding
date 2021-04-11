@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 500vh;
 }
 
 #chat-screen .alt-header,
@@ -18,6 +18,8 @@
 
 #chat-screen .alt-header {
   z-index: 1;
+}
+@keyframes fadeIn {
 }
 
 .main-chat {
