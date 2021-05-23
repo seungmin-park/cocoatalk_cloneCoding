@@ -1,0 +1,7 @@
+.logo_backgroundImg {
+  position: absolute;
+  z-index: -1;
+  top: 290px;
+  left: 135px;
+  opacity: 0.5;
+}

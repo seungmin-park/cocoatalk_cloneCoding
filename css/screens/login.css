@@ -1,3 +1,15 @@
+body {
+  position: relative;
+}
+
+.login-back {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.2;
+  top: 5%;
+  left: 15%;
+}
+
 .welcome--header {
   margin: 90px 0px;
   text-align: center;
@@ -13,8 +25,7 @@
 
 .welcome--header__text {
   width: 60%;
-  color: gray;
-  opacity: 0.7;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 #login-form {
@@ -44,9 +55,10 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #484c69;
   cursor: pointer;
   border-radius: 5px;
+  color: white;
 }
 
 a {
@@ -69,7 +81,7 @@ a {
   top: 0;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background-color: #484c69;
   display: flex;
   justify-content: center;
   align-items: center;
