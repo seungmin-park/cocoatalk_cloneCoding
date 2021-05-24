@@ -22,6 +22,10 @@
 }
 
 .user-component__subtitle {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 320px;
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
@@ -61,4 +65,9 @@
 
 .main-screen .user-component {
   margin-bottom: 25px;
+}
+
+.user-component__subtitle {
+  display: flex;
+  justify-content: flex-start;
 }
