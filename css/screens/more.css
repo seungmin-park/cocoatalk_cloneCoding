@@ -14,6 +14,11 @@
 
 .more-suggestions__icons {
   display: flex;
+  margin-right: 29px;
+}
+
+.more-suggestions__icons-column {
+  display: flex;
 }
 
 .more-suggestions__icon {
@@ -27,11 +32,23 @@
   display: flex;
   width: 60px;
   height: 60px;
+  background-color: var(--yellow);
   align-items: center;
   justify-content: center;
-  background-color: var(--yellow);
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.more-suggestions__icons:nth-child(2) .more-suggestions__icon-images {
+  background-color: #d7005d;
+}
+
+.more-suggestions__icons:nth-child(3) .more-suggestions__icon-images {
+  background-color: #464948;
+}
+
+.more-suggestions__icons:last-child .more-suggestions__icon-images {
+  background-color: #19ce60;
 }
 
 .more-suggestions__icon-images i {
