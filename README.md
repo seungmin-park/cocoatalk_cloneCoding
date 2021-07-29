@@ -1,3 +1,3 @@
-# Kokoa Clone
+# Kakao Clone
 
 Start cloning with HTML and CSS.
